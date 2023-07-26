@@ -27,7 +27,7 @@ public class MainManager : MonoBehaviour
     {
         brickSpawn();
 
-        HighScoreText.text = $"Best Score : {highScoreManager.Instance.highName} : {highScoreManager.Instance.highScore}";
+        HighScoreText.text = $"BEST SCORE : {highScoreManager.Instance.highName} : {highScoreManager.Instance.highScore}";
     }
     private void brickSpawn()
     {
@@ -79,7 +79,7 @@ public class MainManager : MonoBehaviour
     void AddPoint(int point)
     {
         m_Points += point;
-        ScoreText.text = $"Score : {m_Points}";
+        ScoreText.text = $"SCORE : {m_Points}";
     }
 
     public void GameOver()

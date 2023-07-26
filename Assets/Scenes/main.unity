@@ -446,7 +446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score : 0'
+  m_Text: 'SCORE : 0'
 --- !u!222 &188020407
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -642,7 +642,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'GAME OVER
 
-    Press Space to Restart'
+    PRESS SPACE TO RESTART'
 --- !u!222 &474497241
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1330,8 +1330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e2feac0c9b7e984c9c81ca0ed539684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highScore: 0
-  highName: 
+  highScore: 20
+  highName: DEV
 --- !u!1 &2078529054
 GameObject:
   m_ObjectHideFlags: 0
