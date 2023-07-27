@@ -14,6 +14,7 @@ public class SetHighName : MonoBehaviour
             name = name.Substring(0, 3);
         }
         highScoreManager.Instance.highName = name;
+        highScoreManager.Instance.SaveScore();
     }
 
     private void Update()

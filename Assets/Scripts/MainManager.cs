@@ -27,6 +27,8 @@ public class MainManager : MonoBehaviour
     {
         brickSpawn();
 
+        highScoreManager.Instance.LoadScore();
+
         HighScoreText.text = $"BEST SCORE : {highScoreManager.Instance.highName} : {highScoreManager.Instance.highScore}";
     }
     private void brickSpawn()
